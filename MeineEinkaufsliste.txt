@@ -1,0 +1,5 @@
+Apfel;5
+Banane;6
+Eier;30
+Sonnenblumenöl;1
+Bier;20

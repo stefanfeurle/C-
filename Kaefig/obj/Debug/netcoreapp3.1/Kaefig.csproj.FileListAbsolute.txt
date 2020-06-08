@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.deps.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.runtimeconfig.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.runtimeconfig.dev.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\bin\Debug\netcoreapp3.1\Kaefig.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.AssemblyInfoInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.AssemblyInfo.cs
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Kaefig\obj\Debug\netcoreapp3.1\Kaefig.genruntimeconfig.cache

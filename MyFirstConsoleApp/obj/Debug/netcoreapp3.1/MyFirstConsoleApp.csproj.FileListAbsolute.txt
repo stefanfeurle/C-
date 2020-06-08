@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.deps.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.dev.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfo.cs
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.genruntimeconfig.cache

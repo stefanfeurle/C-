@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i/FICzhxNcsRyl2aCxuAickkc+L1AUie44GQB3RHRfu4CQwqkwR9XvTf4V05NaV1PZwypAM47Nx4xxAGL8muVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\Lottery\\Lottery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DCV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

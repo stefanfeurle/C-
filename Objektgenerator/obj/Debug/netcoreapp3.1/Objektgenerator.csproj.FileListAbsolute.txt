@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.deps.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.runtimeconfig.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.runtimeconfig.dev.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\bin\Debug\netcoreapp3.1\Objektgenerator.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.AssemblyInfoInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.AssemblyInfo.cs
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Objektgenerator\obj\Debug\netcoreapp3.1\Objektgenerator.genruntimeconfig.cache

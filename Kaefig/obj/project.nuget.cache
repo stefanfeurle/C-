@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S8wHY0RK8CvP5IKDWxGphNNwT8eXDu6LJIS9xIsYlO8Y2o8+m0Q7qs1K5mVaYka0vuIWKL8leB8YbtRV4OlqfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\Kaefig\\Kaefig.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DCV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

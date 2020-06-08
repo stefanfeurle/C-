@@ -1,0 +1,10 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\bin\Debug\Woerterbuch.exe.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\bin\Debug\Woerterbuch.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\bin\Debug\Woerterbuch.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.Properties.Resources.resources
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.Woerterbuch.resources
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.csproj.GenerateResource.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.pdb
