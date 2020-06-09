@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.deps.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.runtimeconfig.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.runtimeconfig.dev.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\bin\Debug\netcoreapp3.1\TestDriveDevelopement.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.AssemblyInfoInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.AssemblyInfo.cs
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\TestDriveDevelopement\obj\Debug\netcoreapp3.1\TestDriveDevelopement.genruntimeconfig.cache

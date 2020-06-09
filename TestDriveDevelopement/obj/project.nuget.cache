@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EcQg994a35ZGd/GGDSxiizm2IsQvRiBYuKEzYfLdkhYegmKyUi6bG0EXQkxuvnce9OhRY0sUvKOyazdO185gGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\TestDriveDevelopement\\TestDriveDevelopement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DCV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
