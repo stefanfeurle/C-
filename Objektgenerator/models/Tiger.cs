@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Objektgenerator.models
 {
-    class Tiger
+    public class Tiger
     {
         public int Age { get; set; }
         public string Name { get; set; }
@@ -13,6 +13,11 @@ namespace Objektgenerator.models
         {
             Age = age;
             Name = name;
+        }
+
+        public override string ToString()
+        {
+            return "Tiger";
         }
     }
 }

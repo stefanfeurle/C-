@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.deps.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.runtimeconfig.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.runtimeconfig.dev.json
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\bin\Debug\netcoreapp3.1\myFirstSmartphone.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.AssemblyInfoInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.AssemblyInfo.cs
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\myFirstSmartphone\obj\Debug\netcoreapp3.1\myFirstSmartphone.genruntimeconfig.cache

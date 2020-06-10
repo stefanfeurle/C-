@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Objektgenerator.models
 {
-    class Beer
+    public class Beer
     {        
         public Beer()
         {
@@ -12,7 +12,7 @@ namespace Objektgenerator.models
 
         public override string ToString()
         {
-             return "Bier"; 
+            return "Bier"; 
         }
     }
 }

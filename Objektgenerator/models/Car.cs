@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Objektgenerator
 {
-    class Car
+    public class Car
     {
         public Car()
         {
@@ -14,6 +14,5 @@ namespace Objektgenerator
         {
             return "Auto";
         }
-
     }
 }

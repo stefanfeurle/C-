@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Objektgenerator.models
 {
-    class ObjectGenerator <T> 
+    public class ObjectGenerator  
     {
         public T GetNewObject<T> () where T : new()
         {
@@ -24,10 +24,9 @@ namespace Objektgenerator.models
             return objects;
         }
 
-        public T GetObject(params object[] args) 
+        public T GetObject<T>(params object[] args) 
         {
-            
-             return (T)Activator.CreateInstance(typeof(T), args);
+            return (T)Activator.CreateInstance(typeof(T), args);
         }
     }
 }

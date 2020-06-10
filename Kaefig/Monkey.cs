@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Kaefig
 {
-    class Monkey
+    public class Monkey
     {
         public string Name { get; set; }
 

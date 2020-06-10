@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Kaefig
 {
-    class Cage <T>
+    public class Cage <T>
     {
         List<T> cage = new List<T>();
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Objektgenerator.models
 {
-    class Monkey
+    public class Monkey
     {
         public Monkey()
         {

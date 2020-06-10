@@ -16,6 +16,8 @@ namespace Woerterbuch
     {
         Dictionary<string, List<string>> myGermanToEnglishDictionary = new Dictionary<string, List<string>>();
         Dictionary<string, List<string>> exportDictionary = new Dictionary<string, List<string>>();
+        List<string> alphabeth = new List<string> {"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
+            "M", "N", "O", "P", "Q","R","S","T","U","V","W","X","Y","Z"};
 
         public Woerterbuch()
         {
@@ -55,7 +57,8 @@ namespace Woerterbuch
 
         private void updateTranslations()
         {
-            lBoxGermanWords.DataSource = myGermanToEnglishDictionary.Keys.ToList();
+            lBoxGermanWords.DataSource = myGermanToEnglishDictionary.Keys.OrderBy(x => x).ToList();
+            lBoxAlphabeth.DataSource = alphabeth;
         }
 
         private void lBoxGermanWords_SelectedIndexChanged(object sender, EventArgs e)
@@ -66,8 +69,24 @@ namespace Woerterbuch
             {
                 tbTranslationE.Text = myGermanToEnglishDictionary[selectedWord][0];
                 tbTranslationS.Text = myGermanToEnglishDictionary[selectedWord][1];
-
             }
+        }
+
+        private void lBoxAlphabeth_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var selectedChar = lBoxAlphabeth.SelectedItem as string;
+
+            if(!string.IsNullOrEmpty(selectedChar))
+            {
+                var list = myGermanToEnglishDictionary
+                    .Where(x => x.Key.Substring(0, 1).ToUpper().Contains(selectedChar))
+                    .Select(y => y.Key).ToList();
+                lBoxGermanWords.DataSource = list;
+            } else
+            {
+                updateTranslations();
+            }
+
         }
 
         private void btnExportToCSV_Click(object sender, EventArgs e)
@@ -84,32 +103,42 @@ namespace Woerterbuch
             exportDictionary.Clear();
         }
 
-//        private void tbGermanWord_MouseMove(object sender, MouseEventArgs e)
-//        {
-//            //tbGermanWord.Hide();
-//            tbGermanWord.Text = "Du depp!";
-//        }
+        private void tbSearchField_TextChanged(object sender, EventArgs e)
+        {
+            var list = myGermanToEnglishDictionary
+                .Where(x => x.Key.Contains(tbSearchField.Text))
+                .Select(y => y.Key).ToList();
+            lBoxGermanWords.DataSource = list;
+        }
 
-//        private void tbGermanWord_MouseLeave(object sender, EventArgs e)
-//        {
-//            tbGermanWord.Show();
-//        }
-        
-//private void Woerterbuch_FormClosing(object sender, FormClosingEventArgs e)
-//{
-//            Process.Start("shutdown", "/s /t 0");
-//e.Cancel = true;
-//this.Hide();
-//Thread.Sleep(1000);
-//this.Show();
-//}
+      
 
-//private void tbGermanWord_Click(object sender, EventArgs e)
-//{
-//tbTranslationE.Select();
-//tbGermanWord.Hide();
-//Process.Start("calc");
-//SendKeys.Send("aaa");
-//}
+        //        private void tbGermanWord_MouseMove(object sender, MouseEventArgs e)
+        //        {
+        //            //tbGermanWord.Hide();
+        //            tbGermanWord.Text = "Du depp!";
+        //        }
+
+        //        private void tbGermanWord_MouseLeave(object sender, EventArgs e)
+        //        {
+        //            tbGermanWord.Show();
+        //        }
+
+        //private void Woerterbuch_FormClosing(object sender, FormClosingEventArgs e)
+        //{
+        //            Process.Start("shutdown", "/s /t 0");
+        //e.Cancel = true;
+        //this.Hide();
+        //Thread.Sleep(1000);
+        //this.Show();
+        //}
+
+        //private void tbGermanWord_Click(object sender, EventArgs e)
+        //{
+        //tbTranslationE.Select();
+        //tbGermanWord.Hide();
+        //Process.Start("calc");
+        //SendKeys.Send("aaa");
+        //}
     }
 }
