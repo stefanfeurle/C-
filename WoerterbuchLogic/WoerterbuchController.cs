@@ -7,9 +7,7 @@ namespace WoerterbuchLogic
 {
     public class WoerterbuchController
     {
-        public string Path { get; set; }
-
-       
+        public string Path { get; set; }       
         private List<string> alphabeth = new List<string> {string.Empty, "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
             "M", "N", "O", "P", "Q","R","S","T","U","V","W","X","Y","Z"};
 
@@ -62,6 +60,11 @@ namespace WoerterbuchLogic
             }
         }
 
+        /// <summary>
+        /// writes a new word to the dictionary
+        /// </summary>
+        /// <param name="translation"></param>
+        /// <returns></returns>
         public bool addWord(Translation translation)
         {
             bool correctInput = false;
@@ -79,6 +82,11 @@ namespace WoerterbuchLogic
             return correctInput;
         }
 
+        /// <summary>
+        /// returns translations of a selected word
+        /// </summary>
+        /// <param name="germanWord"></param>
+        /// <returns></returns>
         public List<string> getTranslations(string germanWord)
         {
             return myGermanToEnglishDictionary[germanWord];
@@ -123,6 +131,10 @@ namespace WoerterbuchLogic
             return alphabeth;
         }
 
+        /// <summary>
+        /// returns the words of the key language in a list
+        /// </summary>
+        /// <returns></returns>
         public List<string> getKeys()
         {
             return myGermanToEnglishDictionary.Keys.OrderBy(x => x).ToList();
