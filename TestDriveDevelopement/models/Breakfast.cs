@@ -12,7 +12,7 @@ namespace TestDriveDevelopement
             return new Coffee();
         }
 
-        public static Egg[] FryEggs(int egg)
+        public static Egg[] FryEggs(int  egg)
         {
             Egg[] eggs = new Egg[egg];
             for (int i = 0; i < egg; i++)

@@ -10,7 +10,7 @@ namespace TestDriveDevelopement
         public string Temperature
         {
             get
-            {               
+            {
                 if (temperature == string.Empty)
                 {
                     temperature = "Hot";
@@ -23,12 +23,16 @@ namespace TestDriveDevelopement
                 {
                     temperature = "Not so hot";
                 }
-                else if(temperature == "Not so hot")
+                else if (temperature == "Not so hot")
                 {
                     temperature = "Cold";
                 }
                 return temperature;
-            }            
+            }
+            //set
+            //{
+            //    temperature = value;
+            //}
         }
 
         public override string ToString()

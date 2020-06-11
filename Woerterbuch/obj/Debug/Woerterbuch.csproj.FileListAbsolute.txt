@@ -8,3 +8,6 @@ C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerte
 C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.csproj.CoreCompileInputs.cache
 C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.exe
 C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\bin\Debug\WoerterbuchLogic.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\bin\Debug\WoerterbuchLogic.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Woerterbuch\obj\Debug\Woerterbuch.csproj.CopyComplete

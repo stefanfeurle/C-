@@ -27,75 +27,73 @@ namespace myFirstSmartphone
             smartphone.add(solitaire);
             smartphone.add(chess);
 
-            Console.WriteLine("\nMY SMARTPHONE\n\nMit 'Filter:<Apps>' oder 'Filter:<Games>' können sie ihre Apps und Games anschauen!" +
-                "\nMit 'Start:<'appname' können sie die App Starten\n");
-            var userInput = Console.ReadLine();
-            //var userInput = "Start:  < whatsapp>";
-            //var userInput = " Filter : <apps>";
-
-            if (userInput.Contains(':'))
+            var userInput = string.Empty;
+            while (userInput.ToUpper() != "End".ToUpper())
             {
-                string[] splitValue = userInput.Split(':');
-                string key = splitValue[0].Trim();
-                string value = splitValue[1].Trim();
-                if (value.StartsWith('<') && value.EndsWith('>'))
+                var correctInput = false;
+                Console.WriteLine("\nMY SMARTPHONE\n\nFilter:<Apps> ... Apps anschauen\nFilter:<Games> ... Games anschauen" +
+                    "\nStart:<appname> ... App starten\nEnd ... Beenden\n");
+                userInput = Console.ReadLine();
+                //var userInput = "Start:  < whatsapp>";
+                //var userInput = " Filter : <apps>";
+
+                if (userInput.Contains(':'))
                 {
-                    value = value[1..^1].Trim();
-                }
-                if (key.ToUpper() == Key.START.ToString())
-                {
-                    App app = smartphone.Get<App>(value);
-                    if (app != null)
+                    string[] splitValue = userInput.Split(':');
+                    string key = splitValue[0].Trim();
+                    string value = splitValue[1].Trim();
+                    if (value.StartsWith('<') && value.EndsWith('>'))
                     {
-                        Console.WriteLine(app.toStart());
-                        if (app.Category.ToString() != Category.GAME.ToString())
+                        value = value[1..^1].Trim();
+                    }
+                    if (key.ToUpper() == Key.START.ToString())
+                    {
+                        App app = smartphone.Get<App>(value);
+                        if (app != null)
                         {
-                            Thread.Sleep(20000);
-                        } else
-                        {
-                            for (int i = 0; i < 20; i++)
+                            correctInput = true;
+                            Console.WriteLine(app.toStart());
+                            if (app.Category.ToString() != Category.GAME.ToString())
                             {
-                                Thread.Sleep(1000);
-                                Console.WriteLine(i + 1);
+                                Thread.Sleep(20000);
                             }
-                        }
-                        
-                        Console.WriteLine("Ende\n");
-                    } else
-                    {
-                        Console.WriteLine("\nFalsche Eingabe!\n");
+                            else
+                            {
+                                for (int i = 0; i < 20; i++)
+                                {
+                                    Thread.Sleep(1000);
+                                    Console.Write((i + 1) + " ");
+                                }
+                            }
+                            Console.WriteLine("\nEnde\n");
+                        }                      
                     }
-                } else if (key.ToUpper() == "Filter".ToUpper())
-                {
-                    List<App> apps = null;
-                    if (value.ToUpper() == KindOfValueInput.APPS.ToString())
+                    else if (key.ToUpper() == "Filter".ToUpper())
                     {
-                        apps = smartphone.getList(new Category[] { Category.EATING, Category.COMMUNICATION });
-                    } else if (value.ToUpper() == KindOfValueInput.GAMES.ToString())
-                    {
-                        apps = smartphone.getList(Category.GAME);
-                    }
-                    if(apps != null)
-                    {
-                        foreach (var item in apps)
+                        List<App> apps = null;
+                        if (value.ToUpper() == KindOfValueInput.APPS.ToString())
                         {
-                            Console.WriteLine(item.Name);
+                            apps = smartphone.getList(new Category[] { Category.EATING, Category.COMMUNICATION });
                         }
-                    } else 
-                    {
-                        Console.WriteLine("\nFalsche Eingabe!\n");
+                        else if (value.ToUpper() == KindOfValueInput.GAMES.ToString())
+                        {
+                            apps = smartphone.getList(Category.GAME);
+                        }
+                        if (apps != null)
+                        {
+                            foreach (var item in apps)
+                            {
+                                Console.WriteLine(item.Name);
+                                correctInput = true;
+                            }
+                        }                                
                     }
                 }
-
-                //Console.WriteLine("\n" + skype);
-                //Console.WriteLine(soccer);
-                //Console.WriteLine(Key.START.ToString());
-                //Console.WriteLine(value);
+                if (correctInput == false && userInput.ToUpper() != "end".ToUpper())
+                {
+                    Console.WriteLine("\nFalsche Eingabe!\n");
+                }
             }
-
-           
-
-
         }
     }
 }

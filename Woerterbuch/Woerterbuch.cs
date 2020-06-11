@@ -9,106 +9,69 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WoerterbuchLogic;
 
 namespace Woerterbuch
 {
     public partial class Woerterbuch : Form
     {
-        Dictionary<string, List<string>> myGermanToEnglishDictionary = new Dictionary<string, List<string>>();
-        Dictionary<string, List<string>> exportDictionary = new Dictionary<string, List<string>>();
-        List<string> alphabeth = new List<string> {"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
-            "M", "N", "O", "P", "Q","R","S","T","U","V","W","X","Y","Z"};
+        WoerterbuchController woerterbuchController = new WoerterbuchController("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\MeinWoerterbuch.txt");
 
         public Woerterbuch()
         {
             InitializeComponent();
-            string[] myFileContent = System.IO.File.ReadAllLines("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\MeinWoerterbuch.txt");
-            foreach (var myFileContentLine in myFileContent)
-            {
-                string[] splitValue = myFileContentLine.Split(';');
-                var germanWord = splitValue[0];
-                List<string> translations = new List<string>();
-                translations.Add(splitValue[1]);
-                translations.Add(splitValue[2]);
-                myGermanToEnglishDictionary.Add(germanWord, translations);
-                
-            }
+            woerterbuchController.ReadDictionary();
             updateTranslations();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var germanWord = tbGermanWord.Text;
-            List<string> translations = new List<string>();
-            translations.Add(tbEnglishWord.Text);
-            translations.Add(tbSchwedishWord.Text);
-
-            if (!string.IsNullOrEmpty(germanWord) && !string.IsNullOrEmpty(tbEnglishWord.Text) &&
-                !string.IsNullOrEmpty(tbSchwedishWord.Text) && !myGermanToEnglishDictionary.ContainsKey(germanWord))
+            //var correctInput = woerterbuchController.addWord(tbGermanWord.Text, tbEnglishWord.Text, tbSchwedishWord.Text);
+            var correctInput = woerterbuchController.addWord(new Translation() { GermanWord = tbGermanWord.Text,
+                EnglishWord = tbEnglishWord.Text, SchwedishWord = tbSchwedishWord.Text});
+            if(correctInput == true)
             {
-                myGermanToEnglishDictionary.Add(germanWord, translations);
-                exportDictionary.Add(germanWord, translations);
                 updateTranslations();
-            }
-            tbGermanWord.Text = null;
-            tbEnglishWord.Text = null;
-            tbSchwedishWord.Text = null;
+                tbGermanWord.Text = null;
+                tbEnglishWord.Text = null;
+                tbSchwedishWord.Text = null;
+            }           
         }
 
         private void updateTranslations()
         {
-            lBoxGermanWords.DataSource = myGermanToEnglishDictionary.Keys.OrderBy(x => x).ToList();
-            lBoxAlphabeth.DataSource = alphabeth;
+            lBoxGermanWords.DataSource = woerterbuchController.getKeys();
+            lBoxAlphabeth.DataSource = woerterbuchController.GetAlphabet();
         }
 
         private void lBoxGermanWords_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var selectedWord = lBoxGermanWords.SelectedItem as string;
-
-            if (!string.IsNullOrEmpty(selectedWord) && myGermanToEnglishDictionary.ContainsKey(selectedWord))
-            {
-                tbTranslationE.Text = myGermanToEnglishDictionary[selectedWord][0];
-                tbTranslationS.Text = myGermanToEnglishDictionary[selectedWord][1];
-            }
+            var translations = woerterbuchController.getTranslations(lBoxGermanWords.SelectedItem as string);
+            tbTranslationE.Text = translations[0];
+            tbTranslationS.Text = translations[1];
         }
 
         private void lBoxAlphabeth_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var selectedChar = lBoxAlphabeth.SelectedItem as string;
+            var selectedIndexList = woerterbuchController.FindResults(lBoxAlphabeth.SelectedItem as string, true);
 
-            if(!string.IsNullOrEmpty(selectedChar))
+            if(selectedIndexList != null)
             {
-                var list = myGermanToEnglishDictionary
-                    .Where(x => x.Key.Substring(0, 1).ToUpper().Contains(selectedChar))
-                    .Select(y => y.Key).ToList();
-                lBoxGermanWords.DataSource = list;
+                lBoxGermanWords.DataSource = selectedIndexList;
             } else
             {
                 updateTranslations();
             }
-
         }
 
         private void btnExportToCSV_Click(object sender, EventArgs e)
         {
-            List<string> addFile = new List<string>();
-            foreach (var word in exportDictionary)
-            {
-                List<string> translations = word.Value;
-                var englishWord = translations[0];
-                var schwedishWord = translations[1];
-                addFile.Add($"{word.Key};{englishWord};{schwedishWord}");  
-            }
-            System.IO.File.AppendAllLines("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\MeinWoerterbuch.txt", addFile);
-            exportDictionary.Clear();
+            woerterbuchController.WriteToFile();
         }
 
         private void tbSearchField_TextChanged(object sender, EventArgs e)
         {
-            var list = myGermanToEnglishDictionary
-                .Where(x => x.Key.Contains(tbSearchField.Text))
-                .Select(y => y.Key).ToList();
-            lBoxGermanWords.DataSource = list;
+            lBoxGermanWords.DataSource = woerterbuchController.FindResults(tbSearchField.Text, false);
         }
 
       
