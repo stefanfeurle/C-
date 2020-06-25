@@ -1,0 +1,8 @@
+hallo;hello;hej
+morgen;morning;morgon
+Fleisch;meat;kött
+Vater;father;far
+Papa;dad;far
+Abend;evening;eve
+Mutter;mother;mor
+Eltern;parents;föräldrar

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using WoerterbuchData;
 
 namespace WoerterbuchLogic
 {
     public class Translation
     {
-        public string GermanWord { get; set; }
-        public string EnglishWord { get; set; }
-        public string SchwedishWord { get; set; }
+        public Word GermanWord { get; set; }
+        public Word EnglishWord { get; set; }
+        public Word SchwedishWord { get; set; }
     }
 }

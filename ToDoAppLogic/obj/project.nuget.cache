@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RlqyVAubop16YXbcIYJu9oRCd4JqvFoU3QjNhhk0i9WGRLDxgH/napkpx08Z1eKmM8Om01HG8tlsOmDVfnqmsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\6. C#\\ToDoAppLogic\\ToDoAppLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DCV\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\DCV\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DCV\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

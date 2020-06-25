@@ -1,0 +1,15 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumLogic.dll.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumLogic.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumLogic.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumData.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\EntityFramework.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumData.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\AbteilungsbaumData.exe.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\EntityFramework.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\obj\Debug\AbteilungsbaumLogic.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\obj\Debug\AbteilungsbaumLogic.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\obj\Debug\AbteilungsbaumLogic.csproj.CopyComplete
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\obj\Debug\AbteilungsbaumLogic.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumLogic\obj\Debug\AbteilungsbaumLogic.pdb

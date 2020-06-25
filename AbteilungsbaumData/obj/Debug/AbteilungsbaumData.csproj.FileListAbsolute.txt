@@ -1,0 +1,15 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\AbteilungsbaumData.exe.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\AbteilungsbaumData.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\AbteilungsbaumData.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\EntityFramework.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\EntityFramework.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.DepartmentsTree.resources
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.Properties.Resources.resources
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.csproj.GenerateResource.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.csproj.CopyComplete
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\AbteilungsbaumData\obj\Debug\AbteilungsbaumData.pdb

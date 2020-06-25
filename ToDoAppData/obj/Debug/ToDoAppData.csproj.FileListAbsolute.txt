@@ -1,0 +1,12 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\ToDoAppData.dll.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\ToDoAppData.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\ToDoAppData.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\EntityFramework.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\EntityFramework.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\obj\Debug\ToDoAppData.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\obj\Debug\ToDoAppData.csproj.CopyComplete
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\obj\Debug\ToDoAppData.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\obj\Debug\ToDoAppData.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\ToDoAppData\obj\Debug\ToDoAppData.csprojAssemblyReference.cache
