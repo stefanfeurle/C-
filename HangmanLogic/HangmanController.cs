@@ -2,6 +2,8 @@
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -58,28 +60,44 @@ namespace HangmanLogic
 
         public void AddWords(string[] addWords)
         {
+            var myPicture = Convert.ToBase64String(File.ReadAllBytes(@"C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\hangman4\hangman0.jpg"));
+            File.WriteAllBytes(@"C:\temp\meinbild.jpg", Convert.FromBase64String(myPicture));
+
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    Process.Start("calc");
+            //    //File.Copy(@"C:\temp\meinbild.jpg", $@"C:\temp\{Guid.NewGuid()}.jpg");
+            //}
             foreach (var item in addWords)
-            {                
-                if (!entities.Word.Any(x => x.Name.ToUpper() == item.ToUpper()))
+            {
+                var hasOnlyLetters = System.Text.RegularExpressions.Regex.IsMatch(item, "^[a-zA-Z]*$");
+                //var newWord = System.Text.RegularExpressions.Regex.Replace(item, "[a-z]", "*");
+
+                if (hasOnlyLetters && !entities.Word.Any(x => x.Name.ToUpper() == item.ToUpper()))
                 {
-                    if (item.Length > 2 && !string.IsNullOrEmpty(item.Trim()))
-                    {
-                        bool correctWord = true;
-                        for (int i = 0; i < item.Length; i++)
-                        {
-                            if (!alphabeth.Any(x => x == item.ToUpper().Substring(i,1)))
-                            {
-                                correctWord = false;
-                            }
-                        }
-                        if (correctWord)
-                        {
-                            entities.Word.Add(new Word() { Name = item.Trim() });
-                            entities.SaveChanges();
-                        }                        
-                    }
+                    entities.Word.Add(new Word() { Name = item.Trim() });
+                    entities.SaveChanges();
                 }
-            };
+                //if (!entities.Word.Any(x => x.Name.ToUpper() == item.ToUpper()))
+                //{
+                //    if (item.Length > 2 && !string.IsNullOrEmpty(item.Trim()))
+                //    {
+                //        bool correctWord = true;
+                //        for (int i = 0; i < item.Length; i++)
+                //        {
+                //            if (!alphabeth.Any(x => x == item.ToUpper().Substring(i,1)))
+                //            {
+                //                correctWord = false;
+                //            }
+                //        }
+                //        if (correctWord)
+                //        {
+                //            entities.Word.Add(new Word() { Name = item.Trim() });
+                //            entities.SaveChanges();
+                //        }                        
+                //    }
+                //}
+            }
         }
 
         public void DeleteWord(Word selectedItem)
@@ -118,20 +136,22 @@ namespace HangmanLogic
             getNewGameAlphabeth();
             var wordsCount = entities.Word.Count();
             int randomNumber = random.Next(wordsCount-1);            
-            var list = entities.Word.OrderBy(x => x.Name).ToList();
-            int counter = 0;
-            foreach (var item in list)
-            {
-                if (counter == randomNumber)
-                {
-                    hangmanWord = item.Name;
-                }
-                counter++;
-            }
-            
+            //var list = entities.Word.OrderBy(x => x.Name).ToList();
+            //int counter = 0;
+            //foreach (var item in list)
+            //{
+            //    if (counter == randomNumber)
+            //    {
+            //        hangmanWord = item.Name;
+            //    }
+            //    counter++;
+            //}
+
             //list = list.Skip(randomNumber).ToList();
-            //var word = (Word)list.Take(1);
+            //var hangmanWord1 = list.Take(1);
+            //var word = (Word)list.Take(1).FirstOrDefault();
             //hangmanWord = word.Name;
+            hangmanWord = ((Word)entities.Word.OrderBy(x => x.Name).Skip(randomNumber).Take(1).FirstOrDefault()).Name;
             //hangmanWord = list.Skip(randomNumber).Single()  Take(1).ToString();
             //var hangman = entities.Word.OrderBy(x => x.Name).Skip(randomNumber).Take(1);
             //hangmanWord = hangman.ToString();

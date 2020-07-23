@@ -54,9 +54,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.label1.Location = new System.Drawing.Point(439, 85);
+            this.label1.Location = new System.Drawing.Point(494, 106);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 58);
+            this.label1.Size = new System.Drawing.Size(336, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "HANGMAN";
             // 
@@ -65,9 +65,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label2.Location = new System.Drawing.Point(68, 201);
+            this.label2.Location = new System.Drawing.Point(76, 251);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 31);
+            this.label2.Size = new System.Drawing.Size(96, 37);
             this.label2.TabIndex = 1;
             this.label2.Text = "Login";
             // 
@@ -76,9 +76,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(70, 254);
+            this.label3.Location = new System.Drawing.Point(79, 318);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 25);
+            this.label3.Size = new System.Drawing.Size(130, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "Username:";
             // 
@@ -87,28 +87,29 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(70, 359);
+            this.label4.Location = new System.Drawing.Point(79, 449);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 25);
+            this.label4.Size = new System.Drawing.Size(126, 29);
             this.label4.TabIndex = 3;
             this.label4.Text = "Password:";
             // 
             // tbLoginUserName
             // 
             this.tbLoginUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbLoginUserName.Location = new System.Drawing.Point(65, 305);
+            this.tbLoginUserName.Location = new System.Drawing.Point(73, 381);
             this.tbLoginUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbLoginUserName.Name = "tbLoginUserName";
-            this.tbLoginUserName.Size = new System.Drawing.Size(208, 30);
+            this.tbLoginUserName.Size = new System.Drawing.Size(234, 35);
             this.tbLoginUserName.TabIndex = 4;
             // 
             // tbLoginPassword
             // 
             this.tbLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbLoginPassword.Location = new System.Drawing.Point(67, 417);
+            this.tbLoginPassword.Location = new System.Drawing.Point(75, 521);
             this.tbLoginPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbLoginPassword.Name = "tbLoginPassword";
-            this.tbLoginPassword.Size = new System.Drawing.Size(207, 30);
+            this.tbLoginPassword.PasswordChar = '*';
+            this.tbLoginPassword.Size = new System.Drawing.Size(232, 35);
             this.tbLoginPassword.TabIndex = 5;
             // 
             // label5
@@ -116,9 +117,9 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label5.Location = new System.Drawing.Point(585, 201);
+            this.label5.Location = new System.Drawing.Point(658, 251);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(389, 31);
+            this.label5.Size = new System.Drawing.Size(457, 37);
             this.label5.TabIndex = 6;
             this.label5.Text = "Neues Benutzerkonto errichten";
             // 
@@ -127,9 +128,9 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(587, 265);
+            this.label6.Location = new System.Drawing.Point(660, 331);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 25);
+            this.label6.Size = new System.Drawing.Size(116, 29);
             this.label6.TabIndex = 7;
             this.label6.Text = "Vorname:";
             // 
@@ -138,9 +139,9 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(587, 307);
+            this.label7.Location = new System.Drawing.Point(660, 384);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 25);
+            this.label7.Size = new System.Drawing.Size(135, 29);
             this.label7.TabIndex = 8;
             this.label7.Text = "Nachname:";
             // 
@@ -149,9 +150,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(587, 350);
+            this.label8.Location = new System.Drawing.Point(660, 438);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 25);
+            this.label8.Size = new System.Drawing.Size(80, 29);
             this.label8.TabIndex = 9;
             this.label8.Text = "Email:";
             // 
@@ -160,9 +161,9 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(587, 394);
+            this.label9.Location = new System.Drawing.Point(660, 492);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 25);
+            this.label9.Size = new System.Drawing.Size(130, 29);
             this.label9.TabIndex = 10;
             this.label9.Text = "Username:";
             // 
@@ -171,65 +172,65 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label10.Location = new System.Drawing.Point(587, 440);
+            this.label10.Location = new System.Drawing.Point(660, 550);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 25);
+            this.label10.Size = new System.Drawing.Size(126, 29);
             this.label10.TabIndex = 11;
             this.label10.Text = "Password:";
             // 
             // tbFirstName
             // 
             this.tbFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbFirstName.Location = new System.Drawing.Point(777, 260);
+            this.tbFirstName.Location = new System.Drawing.Point(874, 325);
             this.tbFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(317, 30);
+            this.tbFirstName.Size = new System.Drawing.Size(356, 35);
             this.tbFirstName.TabIndex = 12;
             // 
             // tbLastName
             // 
             this.tbLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbLastName.Location = new System.Drawing.Point(777, 302);
+            this.tbLastName.Location = new System.Drawing.Point(874, 378);
             this.tbLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbLastName.Name = "tbLastName";
-            this.tbLastName.Size = new System.Drawing.Size(317, 30);
+            this.tbLastName.Size = new System.Drawing.Size(356, 35);
             this.tbLastName.TabIndex = 13;
             // 
             // tbEmail
             // 
             this.tbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbEmail.Location = new System.Drawing.Point(777, 350);
+            this.tbEmail.Location = new System.Drawing.Point(874, 438);
             this.tbEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(317, 30);
+            this.tbEmail.Size = new System.Drawing.Size(356, 35);
             this.tbEmail.TabIndex = 14;
             // 
             // tbUserName
             // 
             this.tbUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbUserName.Location = new System.Drawing.Point(777, 394);
+            this.tbUserName.Location = new System.Drawing.Point(874, 492);
             this.tbUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbUserName.Name = "tbUserName";
-            this.tbUserName.Size = new System.Drawing.Size(317, 30);
+            this.tbUserName.Size = new System.Drawing.Size(356, 35);
             this.tbUserName.TabIndex = 15;
             // 
             // tbPassword
             // 
             this.tbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tbPassword.Location = new System.Drawing.Point(777, 438);
+            this.tbPassword.Location = new System.Drawing.Point(874, 548);
             this.tbPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(317, 30);
+            this.tbPassword.Size = new System.Drawing.Size(356, 35);
             this.tbPassword.TabIndex = 16;
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Lime;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLogin.Location = new System.Drawing.Point(65, 499);
+            this.btnLogin.Location = new System.Drawing.Point(73, 624);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(208, 36);
+            this.btnLogin.Size = new System.Drawing.Size(234, 45);
             this.btnLogin.TabIndex = 17;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -239,10 +240,10 @@
             // 
             this.btnCreateAccount.BackColor = System.Drawing.Color.Lime;
             this.btnCreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnCreateAccount.Location = new System.Drawing.Point(777, 513);
+            this.btnCreateAccount.Location = new System.Drawing.Point(874, 641);
             this.btnCreateAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(309, 33);
+            this.btnCreateAccount.Size = new System.Drawing.Size(348, 41);
             this.btnCreateAccount.TabIndex = 18;
             this.btnCreateAccount.Text = "Konto errichten";
             this.btnCreateAccount.UseVisualStyleBackColor = false;
@@ -250,10 +251,10 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1225, 595);
+            this.ClientSize = new System.Drawing.Size(1378, 744);
             this.Controls.Add(this.btnCreateAccount);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbPassword);

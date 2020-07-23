@@ -1,0 +1,13 @@
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\bin\Debug\Vier_gewinnt.exe.config
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\bin\Debug\Vier_gewinnt.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\bin\Debug\Vier_gewinnt.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.csprojAssemblyReference.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.Properties.Resources.resources
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.csproj.GenerateResource.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.csproj.CoreCompileInputs.cache
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.exe
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\bin\Debug\Vier_gewinnt_Logic.dll
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\bin\Debug\Vier_gewinnt_Logic.pdb
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.csproj.CopyComplete
+C:\Users\DCV\stefan\IdeaProjects\CodingCampus\6. C#\Vier_gewinnt\obj\Debug\Vier_gewinnt.Vier_gewinnt.resources
